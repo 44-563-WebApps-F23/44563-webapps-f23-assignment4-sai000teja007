@@ -1,19 +1,19 @@
 .speech{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: black;
 }
 
 .direction{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 13px;
     color: black;
     background-color: #ededed;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .direction:hover{
-    background-color: #eda4a4;
+    background-color: #e3c7c7;
     color: white
 }
 
@@ -34,40 +34,39 @@
 
 
 .table{
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
     margin-top: 10px;
-    border
 }
 
 .table th,
 .table td {
-    border: 5px solid #c24444;
+    border: 2px solid #111111;
     padding: 5px;
     text-align: left;
 }
 
 .table tbody tr:nth-child(even){
-    background-color: #457955;
+    background-color: #b5d6bf;
 }
 
 .petra:hover{
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 5px 5px 5px #46db1d;
-    border: 2px solid  #1be3d2;
+    text-shadow: 5px 5px 5px #bfedb2;
+    border: 2px solid  #bfedb2;
     }
 
 
 .Stockmann:hover{
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 5px 5px 5px #4949ca;
-    border: 2px solid #4949ca;
+    text-shadow: 5px 5px 5px #9595f2;
+    border: 2px solid #9595f2;
 }
 
 .Hovstad:hover{
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 5px 5px 5px #ec8a66;
-    border: 2px solid #ec8a66;
+    text-shadow: 5px 5px 5px #eb9576;
+    border: 2px solid #eb9576;
 }
 
 .navigation_bar {
