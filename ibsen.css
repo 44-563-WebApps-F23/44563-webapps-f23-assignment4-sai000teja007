@@ -70,19 +70,19 @@
     border: 2px solid #ec8a66;
 }
 
-.navbar {
-    border-radius: 5px;
+.navigation_bar {
     overflow: hidden;
     background-color: #82bee3;
     text-align: left;
     position: fixed;
     bottom: 0;
+    height: 10%;
     width: 100%;
 }
 
 
 
-.navbar a {
+.navigation_bar a {
     display: inline-block;
     padding: 20px 40px;
     text-align: left;
@@ -90,6 +90,6 @@
     color: #fff;
 }
 
-.navbar a:hover {
+.navigation_bar a:hover {
     background-color: #afdb90;
 }
