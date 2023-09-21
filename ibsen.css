@@ -1,0 +1,95 @@
+.speech{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.direction{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+    background-color: #ededed;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.direction:hover{
+    background-color: #eda4a4;
+    color: white
+}
+
+.petra{
+    font-size: medium;
+    color: #73e864;
+}
+
+.Stockmann{
+    font-size: medium;
+    color: #53b1ec;
+}
+
+.Hovstad{
+    font-size: medium;
+    color: #ce66c6;
+}
+
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border
+}
+
+.table th,
+.table td {
+    border: 5px solid #c24444;
+    padding: 5px;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: #457955;
+}
+
+.petra:hover{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px #46db1d;
+    border: 2px solid  #1be3d2;
+    }
+
+
+.Stockmann:hover{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px #4949ca;
+    border: 2px solid #4949ca;
+}
+
+.Hovstad:hover{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px #ec8a66;
+    border: 2px solid #ec8a66;
+}
+
+.navbar {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #82bee3;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.navbar a {
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    background-color: #afdb90;
+}
